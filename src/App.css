@@ -81,6 +81,10 @@ table {
   margin-bottom: 2%;
 }
 
+th {
+  background: #dc3545;
+}
+
 footer {
   background: #dc3545;
   color: white;

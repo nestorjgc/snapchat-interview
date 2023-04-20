@@ -92,9 +92,14 @@ function App() {
             </Col>
           </Row>
           <Row>
+            <h3 className='text-center font-weight-bold'>World Champions</h3>
             <Col sm={6}>
               <Card>
-                <Card.Img variant='top' src='./img/Filipe.jpg' />
+                <Card.Img
+                  variant='top'
+                  src='./img/Filipe.jpg'
+                  alt='Toledo Picture'
+                />
                 <Card.Body>
                   <Card.Text className='text-center font-weight-bold'>
                     Filipe Toledo | 2015 | World Surf League Champion
@@ -104,7 +109,11 @@ function App() {
             </Col>
             <Col sm={6}>
               <Card>
-                <Card.Img variant='top' src='./img/kelly.jpg' />
+                <Card.Img
+                  variant='top'
+                  src='./img/kelly.jpg'
+                  alt='Kelly Picture'
+                />
                 <Card.Body>
                   <Card.Text className='text-center font-weight-bold'>
                     Kelly Slater | 2020 | World Surf League Champion
@@ -112,8 +121,6 @@ function App() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col sm={3}>3</Col>
-            <Col sm={3}>3</Col>
           </Row>
         </Container>
         <footer>
