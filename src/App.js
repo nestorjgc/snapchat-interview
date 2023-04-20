@@ -11,7 +11,7 @@ import { Card, CardGroup, CardImg } from "react-bootstrap";
 import CardComponent from "./components/CardComponent";
 import React from "react";
 import FormComponent from "./components/FormComponent";
-
+import GoogleMap from "./components/MapsComponent";
 function App() {
   return (
     <div className='App'>
@@ -118,7 +118,9 @@ function App() {
             </Col>
           </Row>
           <Row>
-            <h3 className='text-center h3-store'>Store</h3>
+            <h3 className='text-center h3-store' id='store'>
+              Store
+            </h3>
             <Col sm={3}>
               <a href='#home' className='no-outline-store-card'>
                 <CardComponent
@@ -126,6 +128,7 @@ function App() {
                   title="QuickSilver Surfboard | 8'6"
                   text='$750.00'
                   className='text-center'
+                  alt='product1 '
                 />
               </a>
             </Col>
@@ -136,25 +139,28 @@ function App() {
                   title='Fins | FCS'
                   text='$25.00'
                   className='text-center'
+                  alt='product2'
                 />
               </a>
             </Col>
             <Col sm={3}>
               <a href='#home' className='no-outline-store-card'>
                 <CardComponent
-                  src='./img/fins.jpg'
-                  title='Fins | FCS'
-                  text='$25.00'
+                  src='./img/solidboard.jpg'
+                  title="FireWare | Solid Board | 6'0"
+                  text='$500.00'
                   className='text-center'
+                  alt='product3'
                 />
               </a>
             </Col>
             <Col sm={3}>
               <a href='#home' className='no-outline-store-card'>
                 <CardComponent
-                  src='./img/fins.jpg'
-                  title='Fins | FCS'
-                  text='$25.00'
+                  src='./img/wetsuit.jpg'
+                  alt='product4'
+                  title='Wetsuit | 3/2 | Billabong'
+                  text='$125.00'
                   className='text-center'
                 />
               </a>
@@ -193,7 +199,13 @@ function App() {
               </Card>
             </Col>
           </Row>
+          <Col sm={12}>
+            <GoogleMap />
+          </Col>
           <div className='form-div'>
+            <h3 className='text-center bg-form-text'>
+              Please feel free to reach out!
+            </h3>
             <FormComponent />
           </div>
         </Container>

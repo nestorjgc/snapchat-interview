@@ -140,6 +140,12 @@ form {
   color: #fff !important;
 }
 
+.bg-form-text {
+  padding: 2%;
+  background-color: black;
+  color: #fff;
+}
+
 .ul-li-repair {
   display: flex;
   margin: 0 auto;

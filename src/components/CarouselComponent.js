@@ -20,13 +20,15 @@ function CarouselComponent() {
               fluid
             />
             <h3 className='logo-h3__landing'>Surf Shops</h3>
-            <button
-              type='button'
-              className='btn btn-danger btn-lg'
-              id='btn-checkout'
-            >
-              Check it out!
-            </button>
+            <a href='#store'>
+              <button
+                type='button'
+                className='btn btn-danger btn-lg'
+                id='btn-checkout'
+              >
+                Check it out!
+              </button>
+            </a>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -44,9 +46,11 @@ function CarouselComponent() {
               fluid
             />
             <h3 className='logo-h3__landing'>Surf Shops</h3>
-            <button type='button' className='btn btn-danger btn-lg'>
-              Check it out!
-            </button>
+            <a href='#store'>
+              <button type='button' className='btn btn-danger btn-lg'>
+                Check it out!
+              </button>
+            </a>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
