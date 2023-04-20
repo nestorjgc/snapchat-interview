@@ -85,6 +85,22 @@ th {
   background: #dc3545;
 }
 
+.form-div {
+  background: #fffabe;
+  padding: 1%;
+}
+
+form {
+  margin-top: 3% !important;
+  margin-bottom: 3% !important;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 2%;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+
 footer {
   background: #dc3545;
   color: white;

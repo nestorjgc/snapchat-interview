@@ -2,14 +2,14 @@ import "./App.css";
 import NavbarComponent from "./components/NavbarComponent";
 import NavbarBrand from "./components/NavbarBrands";
 import NavbarLandComponent from "./components/NavbarLandComponent";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Form } from "react-bootstrap";
 import CarouselComponent from "./components/CarouselComponent";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Image } from "react-bootstrap";
 import PopoverComponent from "./components/PopoverComponent";
 import { Card, CardGroup, CardImg } from "react-bootstrap";
 import React from "react";
-import { ReactDOM } from "react";
+import FormComponent from "./components/FormComponent";
 
 function App() {
   return (
@@ -42,7 +42,7 @@ function App() {
                 focuses on front-end and back-end applications. I specialize in
                 responsive websites and functional user interfaces.
               </p>
-              <PopoverComponent className=''></PopoverComponent>
+              <PopoverComponent />
             </Col>
           </Row>
           <Row>
@@ -122,6 +122,9 @@ function App() {
               </Card>
             </Col>
           </Row>
+          <div className='form-div'>
+            <FormComponent />
+          </div>
         </Container>
         <footer>
           <small>
