@@ -39,6 +39,14 @@ nav > .navbar-resize > img {
   border-radius: 35px;
 }
 
+.surf-pic {
+  width: 100%;
+}
+
+.center-col-6 {
+  margin: auto;
+}
+
 @media only screen and (max-width: 700px) {
   .carousel {
     width: 100%;
@@ -49,6 +57,17 @@ nav > .navbar-resize > img {
   .logo-h3__landing {
     width: 50%;
     padding: 3%;
+  }
+  .navbar-toggler {
+    padding: var(--bs-navbar-toggler-padding-y)
+      var(--bs-navbar-toggler-padding-x);
+    font-size: var(--bs-navbar-toggler-font-size);
+    line-height: 1;
+    color: var(--bs-navbar-color);
+    background-color: transparent;
+    border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius: var(--bs-navbar-toggler-border-radius);
+    transition: var(--bs-navbar-toggler-transition);
   }
 }
 

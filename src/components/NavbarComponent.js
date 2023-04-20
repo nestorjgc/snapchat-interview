@@ -1,5 +1,5 @@
 import { Navbar, Container, Nav } from "react-bootstrap";
-import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaGithub, FaInstagram } from "react-icons/fa";
 function NavbarComponent() {
   return (
     <div>
