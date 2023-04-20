@@ -5,13 +5,17 @@ function NavbarBrands() {
     <div>
       <Navbar variant='light' bg='light' expand='lg' className='center'>
         <Container className='w-100 navbar-resize'>
-          <img src='./img/logo1.png' alt='' className='w-50' />
-          <img src='./img/logo2.png' alt='' className='w-50 nav-hurley' />
-          <img src='./img/oneil.png' alt='' className='w-50 ' />
-          <img src='./img/fcs.png' alt='' className='w-50 ' />
+          <img src='./img/logo1.png' alt='Vans-logo' className='w-50' />
+          <img
+            src='./img/logo2.png'
+            alt='Hurley-logo'
+            className='w-50 nav-hurley'
+          />
+          <img src='./img/oneil.png' alt='Oneill-logo' className='w-50 ' />
+          <img src='./img/fcs.png' alt='Fcs-logo' className='w-50 ' />
           <img
             src='./img/Rip-Curl-Logo.png'
-            alt=''
+            alt='Ripcurl-logo'
             className='w-50 nav-hurley'
           />
         </Container>

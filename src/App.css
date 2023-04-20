@@ -47,6 +47,47 @@ nav > .navbar-resize > img {
   margin: auto;
 }
 
+.anchor-button {
+  text-decoration: none;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.nav-link {
+  background: #dc3545;
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: #fff !important;
+  background: black;
+}
+
+#btn-checkout:hover {
+  background: black;
+  color: white;
+}
+
+table {
+  max-width: 600px;
+  padding: 26px;
+  width: 100%;
+  background: black;
+  color: white;
+  margin: 0 auto;
+  border-radius: 20px;
+  margin-bottom: 2%;
+}
+
+footer {
+  background: #dc3545;
+  color: white;
+  padding: 1%;
+  text-align: center;
+}
+
 @media only screen and (max-width: 700px) {
   .carousel {
     width: 100%;
