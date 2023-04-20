@@ -8,13 +8,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Image } from "react-bootstrap";
 import PopoverComponent from "./components/PopoverComponent";
 import { Card, CardGroup, CardImg } from "react-bootstrap";
+import CardComponent from "./components/CardComponent";
 import React from "react";
 import FormComponent from "./components/FormComponent";
 
 function App() {
   return (
     <div className='App'>
-      <header>
+      <header id='home'>
         <NavbarComponent />
         <NavbarBrand />
       </header>
@@ -92,7 +93,77 @@ function App() {
             </Col>
           </Row>
           <Row>
-            <h3 className='text-center font-weight-bold'>World Champions</h3>
+            <Col sm={6}>
+              <Image
+                src='./img/surfrepair.png'
+                alt='Rental Picture'
+                className='surf-pic mb-2'
+              />
+            </Col>
+            <Col sm={6} className='m-auto' id='services'>
+              <h3 className='text-center font-weight-bold'>Repairs: </h3>
+              <p className='mt-4 mb-4 text-center'>
+                We also offer repairs for any surfboards.
+              </p>
+              <p className='text-center'>
+                Please reach us at 941-928-6332 to give you a quote. We
+                especialize in:
+              </p>
+              <ul className='ul-repair'>
+                <li className='text-center ul-li-repair'>Glass</li>
+                <li className='text-center ul-li-repair'>Epoxy</li>
+                <li className='text-center ul-li-repair'>Polyurethane </li>
+                <li className='text-center ul-li-repair'>Wood</li>
+              </ul>
+            </Col>
+          </Row>
+          <Row>
+            <h3 className='text-center h3-store'>Store</h3>
+            <Col sm={3}>
+              <a href='#home' className='no-outline-store-card'>
+                <CardComponent
+                  src='./img/surfboard.jpg'
+                  title="QuickSilver Surfboard | 8'6"
+                  text='$750.00'
+                  className='text-center'
+                />
+              </a>
+            </Col>
+            <Col sm={3}>
+              <a href='#home' className='no-outline-store-card'>
+                <CardComponent
+                  src='./img/fins.jpg'
+                  title='Fins | FCS'
+                  text='$25.00'
+                  className='text-center'
+                />
+              </a>
+            </Col>
+            <Col sm={3}>
+              <a href='#home' className='no-outline-store-card'>
+                <CardComponent
+                  src='./img/fins.jpg'
+                  title='Fins | FCS'
+                  text='$25.00'
+                  className='text-center'
+                />
+              </a>
+            </Col>
+            <Col sm={3}>
+              <a href='#home' className='no-outline-store-card'>
+                <CardComponent
+                  src='./img/fins.jpg'
+                  title='Fins | FCS'
+                  text='$25.00'
+                  className='text-center'
+                />
+              </a>
+            </Col>
+          </Row>
+          <Row>
+            <h3 className='text-center font-weight-bold word-champions-h3'>
+              World Champions
+            </h3>
             <Col sm={6}>
               <Card>
                 <Card.Img
@@ -100,7 +171,7 @@ function App() {
                   src='./img/Filipe.jpg'
                   alt='Toledo Picture'
                 />
-                <Card.Body>
+                <Card.Body className='card-body-bg'>
                   <Card.Text className='text-center font-weight-bold'>
                     Filipe Toledo | 2015 | World Surf League Champion
                   </Card.Text>
@@ -114,7 +185,7 @@ function App() {
                   src='./img/kelly.jpg'
                   alt='Kelly Picture'
                 />
-                <Card.Body>
+                <Card.Body className='card-body-bg'>
                   <Card.Text className='text-center font-weight-bold'>
                     Kelly Slater | 2020 | World Surf League Champion
                   </Card.Text>
