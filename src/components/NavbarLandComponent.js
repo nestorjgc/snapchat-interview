@@ -2,8 +2,12 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 
 function NavbarLandComponent() {
   return (
-    <div>
-      <Navbar variant='light' expand='lg' className='w-50 center d-flex m-auto'>
+    <div id='navvv'>
+      <Navbar
+        variant='light'
+        expand='lg'
+        className='w-50 center d-flex m-auto '
+      >
         <Container className='responsive-mobile w-50 '>
           <Navbar.Brand href='#'>
             <img src='./img/logo-surf.png' alt='' className='w-100' />

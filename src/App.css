@@ -168,8 +168,8 @@ footer {
     width: 50%;
     padding: 3%;
   }
-  nav.w-50 {
-    width: 100% !important;
+  #navvv {
+    display: none;
   }
 }
 
