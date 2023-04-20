@@ -35,7 +35,9 @@ function App() {
               />
             </Col>
             <Col sm={6} className='m-auto'>
-              <h3 className='text-center font-weight-bold'>About Me!</h3>
+              <h3 className='text-center font-weight-bold'>
+                About Me & Business
+              </h3>
               <p className='mt-4 mb-4'>
                 My name is Nestor Garcia and this is a fictional shop for
                 Snapchat! My passion for surfing is what got me to develop this
@@ -202,7 +204,7 @@ function App() {
           <Col sm={12}>
             <GoogleMap />
           </Col>
-          <div className='form-div'>
+          <div className='form-div' id='contact'>
             <h3 className='text-center bg-form-text'>
               Please feel free to reach out!
             </h3>

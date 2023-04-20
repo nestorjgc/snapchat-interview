@@ -6,7 +6,7 @@ function NavbarComponent() {
       <Navbar bg='danger' variant='dark' expand='lg'>
         <Container>
           <Navbar.Brand href='#home'>Nestor's Surfboards!</Navbar.Brand>
-          <Navbar.Collapse id='basic-navbar-nav'>
+          <Navbar id='basic-navbar-nav'>
             <Nav className='me-auto'>
               <Nav.Link
                 href='https://www.instagram.com/nestorjgc/'
@@ -20,7 +20,7 @@ function NavbarComponent() {
               {/*               <Navbar.Text>Nestor's Surfboards!</Navbar.Text>
                */}{" "}
             </Nav>
-          </Navbar.Collapse>
+          </Navbar>
         </Container>
       </Navbar>
     </div>

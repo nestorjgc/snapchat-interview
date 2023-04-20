@@ -3,22 +3,21 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 function NavbarLandComponent() {
   return (
     <div>
-      <Navbar variant='light' expand='lg' className='w-50 center'>
-        <Container className='w-50'>
+      <Navbar variant='light' expand='lg' className='w-50 center d-flex m-auto'>
+        <Container className='responsive-mobile w-50 '>
           <Navbar.Brand href='#'>
             <img src='./img/logo-surf.png' alt='' className='w-100' />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls='basic-navbar-nav' />
-          <Navbar.Collapse id='basic-navbar-nav'>
+          <Navbar id='basic-navbar-nav '>
             <Nav className='me-auto'>
               <Nav.Link href='#home'>Home</Nav.Link>
               <Nav.Link href='#aboutme' id=''>
                 About
               </Nav.Link>
               <Nav.Link href='#services'>Services</Nav.Link>
-              <Nav.Link href='#link'>Contact</Nav.Link>
+              <Nav.Link href='#contact'>Contact</Nav.Link>
             </Nav>
-          </Navbar.Collapse>
+          </Navbar>
         </Container>
       </Navbar>
     </div>
