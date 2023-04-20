@@ -13,7 +13,7 @@ function NavbarLandComponent() {
             <Nav className='me-auto'>
               <Nav.Link href='#home'>Home</Nav.Link>
               <Nav.Link href='#link'>About</Nav.Link>
-              <Nav.Link href='#link'>Surfboards</Nav.Link>
+              <Nav.Link href='#link'>Services</Nav.Link>
               <Nav.Link href='#link'>Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
