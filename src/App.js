@@ -36,7 +36,7 @@ function App() {
             </Col>
             <Col sm={6} className='m-auto'>
               <h3 className='text-center font-weight-bold'>
-                About Me & Business
+                About M & Business
               </h3>
               <p className='mt-4 mb-4'>
                 My name is Nestor Garcia and this is a fictional shop for
