@@ -10,7 +10,11 @@ function NavbarLandComponent() {
       >
         <Container className='responsive-mobile w-50 '>
           <Navbar.Brand href='#'>
-            <img src='./img/logo-surf.png' alt='' className='w-100' />
+            <img
+              src='	https://nestorjgc.github.io/snapchat/img/logo-surf.png'
+              alt=''
+              className='w-100'
+            />
           </Navbar.Brand>
           <Navbar id='basic-navbar-nav '>
             <Nav className='me-auto'>

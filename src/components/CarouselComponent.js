@@ -8,12 +8,12 @@ function CarouselComponent() {
         <Carousel.Item>
           <Image
             className='d-block w-100 center'
-            src='./img/image2.jpg'
+            src='	https://nestorjgc.github.io/snapchat/img/image2.jpg'
             alt='First Slide Picture'
           />
           <Carousel.Caption>
             <Image
-              src='./img/logo-surf.png'
+              src='	https://nestorjgc.github.io/snapchat/img/logo-surf.png'
               alt='Logo Picture'
               className='logo-img__landing'
               fluid
@@ -33,13 +33,13 @@ function CarouselComponent() {
         <Carousel.Item>
           <Image
             className='d-block w-100 center'
-            src='./img/image1.jpg'
+            src='https://nestorjgc.github.io/snapchat/img/image1.jpg'
             alt='2nd Slide Picture'
           />
 
           <Carousel.Caption>
             <Image
-              src='./img/logo-surf.png'
+              src='	https://nestorjgc.github.io/snapchat/img/logo-surf.png'
               alt='Logo Picture'
               className='logo-img__landing'
               fluid

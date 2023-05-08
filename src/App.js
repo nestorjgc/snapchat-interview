@@ -127,7 +127,7 @@ function App() {
             <Col sm={3}>
               <a href='#home' className='no-outline-store-card'>
                 <CardComponent
-                  src='./img/surfboard.jpg'
+                  src='https://nestorjgc.github.io/snapchat/img/surfboard.jpg'
                   title="QuickSilver Surfboard | 8'6"
                   text='$750.00'
                   className='text-center'
@@ -138,7 +138,7 @@ function App() {
             <Col sm={3}>
               <a href='#home' className='no-outline-store-card'>
                 <CardComponent
-                  src='./img/fins.jpg'
+                  src='	https://nestorjgc.github.io/snapchat/img/fins.jpg'
                   title='Fins | FCS'
                   text='$25.00'
                   className='text-center'
@@ -149,7 +149,7 @@ function App() {
             <Col sm={3}>
               <a href='#home' className='no-outline-store-card'>
                 <CardComponent
-                  src='./img/solidboard.jpg'
+                  src='	https://nestorjgc.github.io/snapchat/img/solidboard.jpg'
                   title="FireWare | Solid Board | 6'0"
                   text='$500.00'
                   className='text-center'
@@ -160,7 +160,7 @@ function App() {
             <Col sm={3}>
               <a href='#home' className='no-outline-store-card'>
                 <CardComponent
-                  src='./img/wetsuit.jpg'
+                  src='https://nestorjgc.github.io/snapchat/img/wetsuit.jpg'
                   alt='product4'
                   title='Wetsuit | 3/2 | Billabong'
                   text='$125.00'
@@ -177,7 +177,7 @@ function App() {
               <Card>
                 <Card.Img
                   variant='top'
-                  src='./img/Filipe.jpg'
+                  src='https://nestorjgc.github.io/snapchat/img/Filipe.jpg'
                   alt='Toledo Picture'
                 />
                 <Card.Body className='card-body-bg'>
@@ -191,7 +191,7 @@ function App() {
               <Card>
                 <Card.Img
                   variant='top'
-                  src='./img/kelly.jpg'
+                  src='	https://nestorjgc.github.io/snapchat/img/kelly.jpg'
                   alt='Kelly Picture'
                 />
                 <Card.Body className='card-body-bg'>
