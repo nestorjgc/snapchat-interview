@@ -1,5 +1,9 @@
 # Welcome to my snapchat project!
 
+## git add . | git commit -m "example" and finally git push to save my project in github.
+
+## for github pages, npm run deploy.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
