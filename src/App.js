@@ -12,6 +12,7 @@ import CardComponent from "./components/CardComponent";
 import React from "react";
 import FormComponent from "./components/FormComponent";
 import GoogleMap from "./components/MapsComponent";
+
 function App() {
   return (
     <div className='App'>
@@ -88,7 +89,7 @@ function App() {
             </Col>
             <Col sm={6}>
               <Image
-                src='./img/rentalpic.jpg'
+                src='https://nestorjgc.github.io/snapchat/img/rentalpic.jpg'
                 alt='Rental Picture'
                 className='surf-pic mb-2'
               />
@@ -97,7 +98,7 @@ function App() {
           <Row>
             <Col sm={6}>
               <Image
-                src='./img/surfrepair.png'
+                src='https://nestorjgc.github.io/snapchat/img/surfrepair.png'
                 alt='Rental Picture'
                 className='surf-pic mb-2'
               />

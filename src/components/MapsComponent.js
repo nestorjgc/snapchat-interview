@@ -1,6 +1,9 @@
 import React from "react";
 
 function GoogleMap() {
+  //I didn't really need a component for this. But I think it makes it a bit easier for App.js to read.
+  //Iframe is just short for inline frames, is an html element that allows ytou
+  // to rembed another html document into your document. So basically Display content from another website.
   return (
     <iframe
       title='Google Map'

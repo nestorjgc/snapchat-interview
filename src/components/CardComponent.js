@@ -3,6 +3,7 @@ import Card from "react-bootstrap/Card";
 
 function CardComponent(props) {
   return (
+    //Passing props to CardComponent so I can dynamically have different text, different img url, different title.
     <Card style={{ width: "18rem" }} className='card-hover d-flex m-auto'>
       <Card.Img variant='top' src={props.src} />
       <Card.Body>

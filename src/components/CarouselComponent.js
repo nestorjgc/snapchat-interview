@@ -11,7 +11,6 @@ function CarouselComponent() {
             src='./img/image2.jpg'
             alt='First Slide Picture'
           />
-
           <Carousel.Caption>
             <Image
               src='./img/logo-surf.png'
