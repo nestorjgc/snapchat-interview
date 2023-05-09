@@ -1,4 +1,4 @@
-# Welcome to my snapchat project!
+# Welcome to my snapchat project
 
 # React with Bootstraps. Library:
 
